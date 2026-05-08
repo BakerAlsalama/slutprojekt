@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenEnergy Solutions - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
     <script defer src="js/script.js"></script>
 </head>
 <body>
@@ -21,7 +22,7 @@
     <main>
         <div class="main-content">
             <div class="banner-container">
-                <img class="banner" src="assets/img/home-background.webp" alt="Banner Image">
+                <img class="banner" src="assets/img/home-background.webp" alt="Banner Image" fetchPriority="high">
                 <div class="banner-caption">
                     <h1>Building Today.</h1>
                     <h1>Powering Tomorrow.</h1>

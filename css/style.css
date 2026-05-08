@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
-
 @font-face {
     font-family: "Lexend";
     src: url(../assets/font/Lexend.ttf);
@@ -75,7 +73,7 @@ main {
 
 .banner {
     object-fit: cover;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
