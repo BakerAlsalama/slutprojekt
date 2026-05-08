@@ -73,7 +73,7 @@ main {
 
 .banner {
     object-fit: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
