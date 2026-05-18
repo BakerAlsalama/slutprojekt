@@ -144,18 +144,29 @@ main {
 .news-table {
     width: 50%;
     font-size: 24px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
 }
 
 .news-date {
-    width: 5.5em;
-    vertical-align: text-top;
-    font-weight: bolder;
     text-align: center;
-    position: relative;
+    position: absolute;
+}
+
+.news-date h4 {
+    color: white;
+    background-color: #559438;
+    padding: 10px;
+}
+
+.news-content {
+    background-color: #E6E6E6;
+    padding: 1em;
+    padding-top: 65px;
 }
 
 td {
-    padding-bottom: 2em;
+    vertical-align: text-top;
 }
 
 footer {
