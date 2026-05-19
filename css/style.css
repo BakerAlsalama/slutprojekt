@@ -107,6 +107,10 @@ header ul li a {
     cursor: pointer;
 }
 
+header ul li a:hover {
+    transform: translateY(-2px);
+}
+
 .sidenavbtn {
     display: none;
 }
@@ -122,10 +126,6 @@ header ul li a {
 
 .menubtn img {
     width: 100%;
-}
-
-header ul li a:hover {
-    transform: scale(1.05);
 }
 
 .header-logo {
@@ -174,8 +174,11 @@ main {
     background-color: #E6E6E6;
     margin: 1em;
     padding: 2em;
-    display: flex;
     min-height: 90%;
+}
+
+.about {
+    display: flex;
 }
 
 .about img {
@@ -203,13 +206,25 @@ main {
 }
 
 .recent {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
 }
 
+.recent h1 {
+    grid-column: span 2 / span 2;
+}
+
 .news {
-    background-color: #559438;
+    background-color: #fff;
     height: 120px;
+}
+
+.news img {
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
 }
 
 .table-container {
@@ -251,6 +266,7 @@ main {
     width: 100%;
     max-height: 200px;
     border-bottom: #559438 solid 7px;
+    margin-bottom: 1em;
 }
 
 td {
@@ -291,6 +307,15 @@ footer {
     .about article {
         width: 100%;
         padding: 1em;
+    }
+
+    .recent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recent h1 {
+        grid-column: none;
     }
 
     .news-table {
