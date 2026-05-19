@@ -21,7 +21,10 @@
     <main>
         <div class="main-content">
             <div class="banner-container">
-                <img class="banner" src="assets/img/home-background.webp" alt="Banner Image" fetchpriority="high">
+                <img class="banner" 
+                    srcset="assets/img/home-background.webp 1920w, assets/img/home-background-small.webp 800w" 
+                    sizes="(max-width: 800px) 800px, 1920px"
+                    alt="Banner Image" fetchpriority="high">
                 <div class="banner-caption">
                     <h1>Building Today.</h1>
                     <h1>Powering Tomorrow.</h1>
