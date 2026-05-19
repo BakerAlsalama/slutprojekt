@@ -8,11 +8,21 @@
     <script defer src="../js/script.js"></script>
 </head>
 <body>
-    <header>
+    <div id="overlay" onclick="closeNav()"></div>
+    <nav id="sidenav">
         <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../index.html#content-1">About Us</a></li>
-            <li><a style="text-decoration: underline;">News</a></li>
+            <li><a>News</a></li>
+        </ul>
+    </nav>
+    <header>
+        <ul>
+            <li class="sidenavbtn"><button class="menubtn" onclick="openNav()"><img src="../assets/svg/menu.svg" alt=""></button></li>
+            <li class="headerbtn"><a href="../index.html">Home</a></li>
+            <li class="headerbtn"><a href="../index.html#content-1">About Us</a></li>
+            <li class="headerbtn"><a>News</a></li>
         </ul>
         <div class="header-logo">
             <img src="" alt="">
