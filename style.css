@@ -21,6 +21,10 @@ body {
     height: 100%;
 }
 
+h1 {
+    font-family: "Lexend", Arial;
+}
+
 #overlay {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
@@ -166,12 +170,12 @@ main {
     position: absolute;
 }
 
-#content-1, #content-2 {
+#content-1, #content-2, #content-3 {
     padding-top: 5em;
     min-height: 100vh;
 }
 
-.about, .recent {
+.about, .recent, .map {
     background-color: #E6E6E6;
     margin: 1em;
     padding: 2em;
@@ -195,7 +199,6 @@ main {
 }
 
 .about h1 {
-    font-family: "Lexend", Arial;
     font-size: xx-large;
     margin-bottom: 1em;
     border-bottom: #559438 solid 7px;
@@ -207,7 +210,6 @@ main {
 }
 
 .recent h1 {
-    grid-column: span 2 / span 2;
     height: 50px;
 }
 
@@ -264,6 +266,14 @@ main {
 
 .news:hover .link {
     transform: scale(1.1);
+}
+
+.map h1 {
+    margin-bottom: 1em;
+}
+
+.map iframe {
+    width: 100%;
 }
 
 .table-container {
