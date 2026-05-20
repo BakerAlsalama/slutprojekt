@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<title>arrow-up-right-from-square</title>
-<path d="M26 15.036c-0.69 0-1.25 0.56-1.25 1.25v12.464h-21.5v-21.5h12.464c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-13.714c-0.69 0-1.25 0.56-1.25 1.25v0 24c0 0.69 0.56 1.25 1.25 1.25h24c0.69-0.001 1.249-0.56 1.25-1.25v-13.714c-0-0.69-0.56-1.25-1.25-1.25h-0zM31.248 1.917c-0.046-0.648-0.578-1.158-1.231-1.167h-10.017c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h6.982l-15.866 15.865c-0.227 0.226-0.367 0.539-0.367 0.885 0 0.691 0.56 1.251 1.251 1.251 0.345 0 0.658-0.14 0.884-0.366v0l15.866-15.867v6.982c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-9.991c0-0.031 0-0.062-0.002-0.092z"></path>
+<svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <title>arrow_right [#349]</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+
+</defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -6639.000000)" fill="#000000">
+            <g id="icons" transform="translate(56.000000, 160.000000)">
+                <path d="M134,6479 L132.565,6480.393 L140.172,6488 L124,6488 L124,6490 L140.172,6490 L132.586,6497.586 L134,6499 C137.661,6495.339 140.496,6492.504 144,6489 L134,6479" id="arrow_right-[#349]">
+
+</path>
+            </g>
+        </g>
+    </g>
 </svg>
