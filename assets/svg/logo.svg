@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_1" data-name="Lager 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414.45 99.67">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 6.25;
+        stroke-width: 1.56px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: CenturyGothic-Bold, 'Century Gothic';
+        font-size: 48px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+    <path class="cls-1" d="M92.09.82c-1.29-.67-11.61,7.27-35.42,12.82-11.57,2.7-43.66,11.91-43.13,57.65l-12.48,7.34,3.89,6.8c12.06-7.78,45.12-22.95,78.33-61.86,0,0-5.14,25.7-63.87,59.46,19.82,10.28,47.71,10.28,69.01-14.68C109.71,43.4,92.09.82,92.09.82Z"/>
+  </g>
+  <text class="cls-2" transform="translate(109.16 45.14)"><tspan x="0" y="0">GreenEnergy</tspan></text>
+  <text class="cls-2" transform="translate(109.77 84.95)"><tspan x="0" y="0">Solutions</tspan></text>
+</svg>
