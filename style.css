@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Lexend";
     src: url(assets/font/Lexend.ttf);
+    font-display: swap;
 }
 
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: "Arial";
-    font-display: swap;
 }
 
 html {
