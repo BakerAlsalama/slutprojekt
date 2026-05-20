@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Lexend";
-    src: url(../assets/font/Lexend.ttf);
+    src: url(assets/font/Lexend.ttf);
 }
 
 * {
@@ -310,6 +310,10 @@ main {
 
 td {
     vertical-align: text-top;
+}
+
+th {
+    font-family: "Lexend", Arial;
 }
 
 footer {
