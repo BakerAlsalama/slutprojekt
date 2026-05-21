@@ -292,7 +292,7 @@ main {
     position: relative;
 }
 
-.news-table {
+#news-table {
     width: 50%;
     font-size: 24px;
     border-collapse: separate;
@@ -477,7 +477,7 @@ footer {
         justify-content: space-around;
     }
 
-    .news-table {
+    #news-table {
         width: 100%;
     }
 }
