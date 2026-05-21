@@ -21,6 +21,10 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-family: "Lexend", Arial;
 }
@@ -335,16 +339,98 @@ th {
 
 footer {
     background-color: #559438;
-    height: 5em;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.footertop {
+    display: flex;
+    width: 100%;
+}
+
+.footerlogo {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.footerlogo img {
+    width: 50%;
+    margin: auto;
+}
+
+.footerright {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footercontent {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.footercontent ul {
+    padding: 0;
+}
+
+.footercontent li {
+    list-style: none;
+}
+
+.footercontent p, .footercontent li {
+    margin: 5px;
+}
+
+.footercontent p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footercontent a {
+    color: white;
+}
+
+.footercontent a:any-link:hover {
+    text-decoration: underline;
+}
+
+.pages, .contact {
+    width: 200px;
+}
+
+.contact a {
+    color: #afcdad;
+}
+
+.socials {
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+
+.socials a {
+    transition: .2s;
+}
+
+.socials a:hover {
+    transform: translateY(-5px);
+}
+
+.socials a img {
+    height: 40px;
+}
+
 .copyright {
-    color: rgb(175, 205, 173);
+    color: #afcdad;
     text-align: center;
+    margin: 1em;
 }
 
 @media (max-width: 700px) {
@@ -381,6 +467,18 @@ footer {
     .map {
         flex-direction: column;
         height: 800px;
+    }
+
+    .footerlogo {
+        display: none;
+    }
+
+    .footerright {
+        width: 100%;
+    }
+
+    .footercontent {
+        justify-content: space-around;
     }
 
     .news-table {
