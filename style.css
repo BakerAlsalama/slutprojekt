@@ -369,7 +369,8 @@ footer {
     width: 100%;
     margin: auto;
     padding: 2em;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .footercontent ul {
@@ -381,7 +382,7 @@ footer {
 }
 
 .footercontent p, .footercontent li {
-    margin: 5px;
+    margin: 10px;
 }
 
 .footercontent p {
@@ -398,11 +399,16 @@ footer {
 }
 
 .pages, .contact {
-    width: 200px;
+    flex: 1;
 }
 
 .contact a {
     color: #afcdad;
+    display: flex;
+}
+
+.contact img {
+    width: 20px;
 }
 
 .socials {
