@@ -436,6 +436,14 @@ footer {
 }
 
 @media (max-width: 700px) {
+    .about, .recent, .map {
+    padding: 1em;
+    }
+
+    .about p {
+        font-size: large;
+    }
+
     .sidenavbtn {
         display: block;
     }
