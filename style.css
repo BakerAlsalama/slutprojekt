@@ -279,8 +279,35 @@ main {
     gap: 20px;
 }
 
-.map iframe {
+#map-holder {
     flex: 1;
+    background-color: #559438;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+}
+
+#map-holder button {
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border: 0;
+    font-size: large;
+    color: #559438;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+#map-holder button:hover {
+    transform: translateY(-5px);
+}
+
+#map-holder iframe {
+    width: 100%;
+    height: 100%;
 }
 
 .table-container {
